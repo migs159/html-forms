@@ -92,6 +92,41 @@
     </style>
 </head>
 <body>
+    <main>
+        <h1>Registration</h1>
+        <form action="action.php" >
+            <div class="flex-field">
+            <input type="text" name="username" placeholder="Add your name"minlength="8" maxlength="20" class="grid-input">
+            <input type="email" name="email" placeholder="Add your email"class="grid-input">
+            </div>
+            <div class="flex-field">
+            <input type="password" name="password"placeholder="Add your password"minlength="8" maxlength="20"class="grid-input">
+            <input type="number" name="" id="number"placeholder="Add your number"class="grid-input">
+            </div>
+            
+            <input type="hidden" name="hidden">
+            <div class="flex-field">
+            <input type="date" name="date" id=""class="grid-input">
+            <input type="datetime-local" name="" id=""class="grid-input">
+            </div>
+            <input type="radio" name="skills" id=""> <label for="skills"value>Programming</label>
+            <input type="radio" name="skills" id=""> <label for="skills"value>Java</label>
+            <input type="radio" name="skills" id=""><label for="skills"value>Web</label>
+            <input type="file" name="fiel upload" id=""class="grid-input">
+
+            <select name="Year Level" id=""> <option value=""disabled selected>Select year level</option>
+                <optgroup></optgroup>
+                <option value="1">First year</option>
+                <option value="1">Second year</option>
+                <option value="1">Third year</option>
+                <option value="1">Fourth year</option></select>
+           
+            <div class="flex-field">
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            </div>
+        </form>
+    </main>
     
 </body>
 </html> 
